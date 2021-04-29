@@ -16,7 +16,7 @@ public class GestorDB {
         return xqs.getConnection();
     }
 
-//    Insertar una compañia y si tienes juegos tambien insertarlos. -> Romero
+//Insertar una compañia y si tienes juegos tambien insertarlos. -> Romero
 //Insertar una plataforma y si tiene juegos que pertenecen a esa plataforma tambien insertarlos -> Llera
 //
 //Eliminar una compañia, y si esa compañia tiene juegos, tambien -> Llera
