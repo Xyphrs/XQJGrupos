@@ -5,6 +5,7 @@ import net.xqj.exist.ExistXQDataSource;
 import javax.xml.xquery.XQConnection;
 import javax.xml.xquery.XQDataSource;
 import javax.xml.xquery.XQException;
+import javax.xml.xquery.XQExpression;
 
 public class GestorDB {
     public static XQConnection constructor() throws XQException {
@@ -29,31 +30,49 @@ public class GestorDB {
 //Query 2: Compañias que pertenezcan a X pais -> Roger
 //Query 3: Plataformas que el releaseYear sea mayor que X año -> Romero
 
-    public static void insertCompany(XQConnection conn) {
+    public static void insertCompany(XQConnection conn) throws XQException {
+        XQExpression xqExpression = conn.createExpression();
+
     }
 
-    public static void insertPlatform(XQConnection conn) {
+    public static void insertPlatform(XQConnection conn) throws XQException {
+        XQExpression xqExpression = conn.createExpression();
+
     }
 
-    public static void deleteCompany(XQConnection conn) {
+    public static void deleteCompany(XQConnection conn) throws XQException {
+        XQExpression xqExpression = conn.createExpression();
+
     }
 
-    public static void deleteGameById(XQConnection conn) {
+    public static void deleteGameById(XQConnection conn) throws XQException {
+        XQExpression xqExpression = conn.createExpression();
+
     }
 
-    public static void updateNetworth(XQConnection conn) {
+    public static void updateNetworth(XQConnection conn) throws XQException {
+        XQExpression xqExpression = conn.createExpression();
+
     }
 
-    public static void updateCountry(XQConnection conn) {
+    public static void updateCountry(XQConnection conn) throws XQException {
+        XQExpression xqExpression = conn.createExpression();
+
     }
 
-    public static void getGamesByCompanyId(XQConnection conn) {
+    public static void getGamesByCompanyId(XQConnection conn) throws XQException {
+        XQExpression xqExpression = conn.createExpression();
+
     }
 
-    public static void getCompaniesByCountry(XQConnection conn) {
+    public static void getCompaniesByCountry(XQConnection conn) throws XQException {
+        XQExpression xqExpression = conn.createExpression();
+
     }
 
-    public static void getPlatformsByReleaseYear(XQConnection conn) {
+    public static void getPlatformsByReleaseYear(XQConnection conn) throws XQException {
+        XQExpression xqExpression = conn.createExpression();
+
     }
 
     public static void tancarSessio(XQConnection conn) throws XQException {
