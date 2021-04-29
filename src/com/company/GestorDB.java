@@ -31,47 +31,47 @@ public class GestorDB {
 //Query 3: Plataformas que el releaseYear sea mayor que X año -> Romero
 
     public static void insertCompany(XQConnection conn) throws XQException {
-        XQExpression xqExpression = conn.createExpression();
+        XQExpression xqe = conn.createExpression();
 
     }
 
     public static void insertPlatform(XQConnection conn) throws XQException {
-        XQExpression xqExpression = conn.createExpression();
+        XQExpression xqe = conn.createExpression();
 
     }
 
     public static void deleteCompany(XQConnection conn) throws XQException {
-        XQExpression xqExpression = conn.createExpression();
+        XQExpression xqe = conn.createExpression();
 
     }
 
     public static void deleteGameById(XQConnection conn) throws XQException {
-        XQExpression xqExpression = conn.createExpression();
+        XQExpression xqe = conn.createExpression();
 
     }
 
     public static void updateNetworth(XQConnection conn) throws XQException {
-        XQExpression xqExpression = conn.createExpression();
+        XQExpression xqe = conn.createExpression();
 
     }
 
     public static void updateCountry(XQConnection conn) throws XQException {
-        XQExpression xqExpression = conn.createExpression();
+        XQExpression xqe = conn.createExpression();
 
     }
 
     public static void getGamesByCompanyId(XQConnection conn) throws XQException {
-        XQExpression xqExpression = conn.createExpression();
+        XQExpression xqe = conn.createExpression();
 
     }
 
     public static void getCompaniesByCountry(XQConnection conn) throws XQException {
-        XQExpression xqExpression = conn.createExpression();
+        XQExpression xqe = conn.createExpression();
 
     }
 
     public static void getPlatformsByReleaseYear(XQConnection conn) throws XQException {
-        XQExpression xqExpression = conn.createExpression();
+        XQExpression xqe = conn.createExpression();
 
     }
 
