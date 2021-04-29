@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<companies>
+    <company id="1">
+        <name>Sega</name>
+        <founding-year>1960</founding-year>
+        <country>Japan</country>
+        <networth>¥247.7 billion</networth>
+    </company>
+    <company id="2">
+        <name>Activision Blizzard</name>
+        <founding-year>2008</founding-year>
+        <country>United States</country>
+        <networth>$8.09 billion</networth>
+    </company>
+    <company id="3">
+        <name>Nintendo</name>
+        <founding-year>1889</founding-year>
+        <country>Japan</country>
+        <networth>¥1.309 trillion</networth>
+    </company>
+    <company id="4">
+        <name>Riot Games</name>
+        <founding-year>2006</founding-year>
+        <country>United States</country>
+        <networth>$26 Billion</networth>
+    </company>
+    <company id="5">
+        <name>Supercell</name>
+        <founding-year>2010</founding-year>
+        <country>Finland</country>
+        <networth>€1.30 billion</networth>
+    </company>
+    <company id="6">
+        <name>Konami</name>
+        <founding-year>1969</founding-year>
+        <country>Japan</country>
+        <networth>¥262.5 billion</networth>
+    </company>
+    <company id="7">
+        <name>Naughty Dog</name>
+        <founding-year>1984</founding-year>
+        <country>United States</country>
+        <networth>$97.2 million</networth>
+    </company>
+    <company id="8">
+        <name>Capcom</name>
+        <founding-year>1979</founding-year>
+        <country>Japan</country>
+        <networth>¥94.5 billion</networth>
+    </company>
+    <company id="9">
+        <name>Square Enix</name>
+        <founding-year>1975</founding-year>
+        <country>Japan</country>
+        <networth>¥260.5 billion</networth>
+    </company>
+    <company id="10">
+        <name>Mojang</name>
+        <founding-year>2009</founding-year>
+        <country>Sweden</country>
+        <networth>$2.5 billion</networth>
+    </company>
+    <company id="11">
+        <name>Rockstar Games</name>
+        <founding-year>1998</founding-year>
+        <country>United States</country>
+        <networth>$5 billion</networth>
+    </company>
+    <company id="12">
+        <name>Electronic Arts</name>
+        <founding-year>1982</founding-year>
+        <country>United States</country>
+        <networth>$5.54 billion</networth>
+    </company>
+    <company id="13">
+        <name>Ubisoft</name>
+        <founding-year>1986</founding-year>
+        <country>France</country>
+        <networth>€1.59 billion</networth>
+    </company>
+</companies>

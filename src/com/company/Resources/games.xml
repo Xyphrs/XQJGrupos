@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topGames>
+    <game id='1' companyID='4'>
+        <name>League of Legends</name>
+        <developedBy>Riot Games</developedBy>
+        <releaseYear>2009</releaseYear>
+    </game>
+    <game id='2' companyID='4'>
+        <name>Valorant</name>
+        <developedBy>Riot Games</developedBy>
+        <releaseYear>2020</releaseYear>
+    </game>
+    <game id='3' companyID='4'>
+        <name>TeamFight Tactics</name>
+        <developedBy>Riot Games</developedBy>
+        <releaseYear>2019</releaseYear>
+    </game>
+    <game id='4' companyID='4'>
+        <name>League of Legends Wild Rift</name>
+        <developedBy>Riot Games</developedBy>
+        <releaseYear>2020</releaseYear>
+    </game>
+    <game id='5' companyID='5'>
+        <name>Clash of Clans</name>
+        <developedBy>Supercell</developedBy>
+        <releaseYear>2012</releaseYear>
+    </game>
+    <game id='6' companyID='5'>
+        <name>clash Royale</name>
+        <developedBy>Supercell</developedBy>
+        <releaseYear>2016</releaseYear>
+    </game>
+    <game id='7' companyID='13'>
+        <name>Assassin's Creed Valhalla</name>
+        <developedBy>Ubisoft</developedBy>
+        <releaseYear>2020</releaseYear>
+    </game>
+    <game id='8' companyID='13'>
+        <name>Far Cry 5</name>
+        <developedBy>Ubisoft</developedBy>
+        <releaseYear>2018</releaseYear>
+    </game>
+    <game id='9' companyID='3'>
+        <name>Super Mario 64</name>
+        <developedBy>Nintendo</developedBy>
+        <releaseYear>1996</releaseYear>
+    </game>
+    <game id='10' companyID='3'>
+        <name>Mario Kart 8</name>
+        <developedBy>Nintendo</developedBy>
+        <releaseYear>2013</releaseYear>
+    </game>
+    <game id='11' companyID='6'>
+        <name>PES 2018</name>
+        <developedBy>Konami</developedBy>
+        <releaseYear>2018</releaseYear>
+    </game>
+    <game id='12' companyID='12'>
+        <name>FIFA 21</name>
+        <developedBy>Electronic Arts</developedBy>
+        <releaseYear>2021</releaseYear>
+    </game>
+    <game id='13' companyID='12'>
+        <name>Apex Legends</name>
+        <developedBy>Electronic Arts</developedBy>
+        <releaseYear>2019</releaseYear>
+    </game>
+    <game id='14' companyID='6'>
+        <name>Metal Gear Solid</name>
+        <developedBy>Konami</developedBy>
+        <releaseYear>1998</releaseYear>
+    </game>
+    <game id='15' companyID='11'>
+        <name>Grand Theft Auto V</name>
+        <developedBy>Rockstar Games</developedBy>
+        <releaseYear>2013</releaseYear>
+    </game>
+    <game id='16' companyID='11'>
+        <name>Red Dead Redention 2</name>
+        <developedBy>Rockstar Games</developedBy>
+        <releaseYear>2018</releaseYear>
+    </game>
+    <game id='17' companyID='8'>
+        <name>Resident Evil 4</name>
+        <developedBy>Capcom</developedBy>
+        <releaseYear>2005</releaseYear>
+    </game>
+    <game id='18' companyID='8'>
+        <name>Street Fighter V</name>
+        <developedBy>Capcom</developedBy>
+        <releaseYear>2016</releaseYear>
+    </game>
+    <game id='19' companyID='7'>
+        <name>Uncharted 4</name>
+        <developedBy>Naughty Dog</developedBy>
+        <releaseYear>2016</releaseYear>
+    </game>
+    <game id='20' companyID='7'>
+        <name>The Last of Us 2</name>
+        <developedBy>Naughty Dog</developedBy>
+        <releaseYear>2020</releaseYear>
+    </game>
+    <game id='21' companyID='1'>
+        <name>Sonic</name>
+        <developedBy>Sega</developedBy>
+        <releaseYear>1991</releaseYear>
+    </game>
+    <game id='22' companyID='2'>
+        <name>Call of Duty Black Ops 2</name>
+        <developedBy>Activision Blizzard</developedBy>
+        <releaseYear>2012</releaseYear>
+    </game>
+    <game id='23' companyID='10'>
+        <name>Minecraft</name>
+        <developedBy>Mojang</developedBy>
+        <releaseYear>2011</releaseYear>
+    </game>
+    <game id='24' companyID='9'>
+        <name>Tomb Raider</name>
+        <developedBy>Square Enix</developedBy>
+        <releaseYear>2013</releaseYear>
+    </game>
+</topGames>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<platforms>
+    <platform platformID='1'>
+        <name>PC Windows 10</name>
+        <createdBy>Microsoft</createdBy>
+        <releaseYear>2015</releaseYear>
+    </platform>
+    <platform platformID='3'>
+        <name>Play Station 5</name>
+        <createdBy>Sony</createdBy>
+        <releaseYear>2020</releaseYear>
+    </platform>
+    <platform platformID='4'>
+        <name>Play Station 4</name>
+        <createdBy>Sony</createdBy>
+        <releaseYear>2013</releaseYear>
+    </platform>
+    <platform platformID='5'>
+        <name>Play Station 3</name>
+        <createdBy>Sony</createdBy>
+        <releaseYear>2006</releaseYear>
+    </platform>
+    <platform platformID='6'>
+        <name>Play Station 2</name>
+        <createdBy>Sony</createdBy>
+        <releaseYear>2000</releaseYear>
+    </platform>
+    <platform platformID='7'>
+        <name>Play Station 1</name>
+        <createdBy>Sony</createdBy>
+        <releaseYear>1995</releaseYear>
+    </platform>
+    <platform platformID='8'>
+        <name>Xbox 360</name>
+        <createdBy>Microsoft</createdBy>
+        <releaseYear>2005</releaseYear>
+    </platform>
+    <platform platformID='9'>
+        <name>Xbox One</name>
+        <createdBy>Microsoft</createdBy>
+        <releaseYear>2013</releaseYear>
+    </platform>
+    <platform platformID='10'>
+        <name>Xbox Series X</name>
+        <createdBy>Microsoft</createdBy>
+        <releaseYear>2020</releaseYear>
+    </platform>
+    <platform platformID='11'>
+        <name>Xbox Series S</name>
+        <createdBy>Microsoft</createdBy>
+        <releaseYear>2020</releaseYear>
+    </platform>
+    <platform platformID='12'>
+        <name>Nintendo 64</name>
+        <createdBy>Nintendo</createdBy>
+        <releaseYear>1997</releaseYear>
+    </platform>
+    <platform platformID='13'>
+        <name>Mobile (Android)</name>
+        <createdBy>Google</createdBy>
+        <releaseYear>2008</releaseYear>
+    </platform>
+    <platform platformID='14'>
+        <name>Mobile (iOS)</name>
+        <createdBy>Apple</createdBy>
+        <releaseYear>2007</releaseYear>
+    </platform>
+    <platform platformID='15'>
+        <name>Sega Genesis</name>
+        <createdBy>Sega</createdBy>
+        <releaseYear>1989</releaseYear>
+    </platform>
+</platforms>
