@@ -16,4 +16,8 @@ public class GestorDB {
         return xqs.getConnection();
     }
 
+    public static void tancarSessio(XQConnection conn) throws XQException {
+        conn.close();
+    }
+
 }

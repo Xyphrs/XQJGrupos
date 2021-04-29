@@ -8,7 +8,9 @@ public class ProvaGestorDB {
     public static void main(String[] args) throws XQException {
         Scanner scanner = new Scanner(System.in);
         XQConnection conn = GestorDB.constructor();
+        System.out.println("Conectando");
 
-
+        GestorDB.tancarSessio(conn);
+        System.out.println("\nDesconectando");
     }
 }
