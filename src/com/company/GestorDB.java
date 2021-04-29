@@ -6,6 +6,8 @@ import javax.xml.xquery.XQConnection;
 import javax.xml.xquery.XQDataSource;
 import javax.xml.xquery.XQException;
 import javax.xml.xquery.XQExpression;
+import java.util.ArrayList;
+import java.util.List;
 
 public class GestorDB {
     public static XQConnection constructor() throws XQException {
@@ -70,9 +72,12 @@ public class GestorDB {
 
     }
 
-    public static void getPlatformsByReleaseYear(XQConnection conn) throws XQException {
+    public static List<Platforms> getPlatformsByReleaseYear(XQConnection conn, String releaseYear) throws XQException {
+        List<Platforms> platformsList = new ArrayList<>();
         XQExpression xqe = conn.createExpression();
 
+
+        return platformsList;
     }
 
     public static void tancarSessio(XQConnection conn) throws XQException {
