@@ -29,31 +29,31 @@ public class GestorDB {
 //Query 2: Compañias que pertenezcan a X pais -> Roger
 //Query 3: Plataformas que el releaseYear sea mayor que X año -> Romero
 
-    public static void insertCompany() {
+    public static void insertCompany(XQConnection conn) {
     }
 
-    public static void insertPlatform() {
+    public static void insertPlatform(XQConnection conn) {
     }
 
-    public static void deleteCompany() {
+    public static void deleteCompany(XQConnection conn) {
     }
 
-    public static void deleteGameById() {
+    public static void deleteGameById(XQConnection conn) {
     }
 
-    public static void updateNetworth() {
+    public static void updateNetworth(XQConnection conn) {
     }
 
-    public static void updateCountry() {
+    public static void updateCountry(XQConnection conn) {
     }
 
-    public static void getGamesByCompanyId() {
+    public static void getGamesByCompanyId(XQConnection conn) {
     }
 
-    public static void getCompaniesByCountry() {
+    public static void getCompaniesByCountry(XQConnection conn) {
     }
 
-    public static void getPlatformsByReleaseYear() {
+    public static void getPlatformsByReleaseYear(XQConnection conn) {
     }
 
     public static void tancarSessio(XQConnection conn) throws XQException {
