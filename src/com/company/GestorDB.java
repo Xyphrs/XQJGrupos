@@ -44,9 +44,7 @@ public class GestorDB {
                 "preceding collection('/db/resources/')/companies/company[1]";
         xqe.executeCommand(insertCompany);
 
-        if (gameID == null) {
-            return;
-        } else {
+        if (gameID != null) {
             String insertGame =
                     "update insert \n" +
                     "<game id='"+ gameID +"' companyID='"+ companyID +"'>\n" +

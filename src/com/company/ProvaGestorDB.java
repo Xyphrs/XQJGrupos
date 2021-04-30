@@ -32,7 +32,7 @@ public class ProvaGestorDB {
             if (responseInsertCompany.equals("S")) {
                 System.out.println("\nIntroduce el id del juego de la compañia");
                 String insertCompanyGameID = scanner.next();
-                System.out.println("\nIntroduce el nombre del jeugo de la compañia");
+                System.out.println("\nIntroduce el nombre del juego de la compañia");
                 String insertCompanyGameName = scanner.next();
                 System.out.println("\nIntroduce el año de creacion del juego de la compañia");
                 String insertCompanyGameYear = scanner.next();
