@@ -29,9 +29,34 @@ public class GestorDB {
 //Query 2: Compañias que pertenezcan a X pais -> Roger
 //Query 3: Plataformas que el releaseYear sea mayor que X año -> Romero
 
-    public static void insertCompany(XQConnection conn) throws XQException {
-        XQExpression xqe = conn.createExpression();
+    public static void insertCompany(XQConnection conn, String companyID, String companyName, String companyYear, String companyCountry, String companyNetworth,
+                                     String gameID, String gameName, String gameReleaseYear) throws XQException {
 
+        XQExpression xqe = conn.createExpression();
+        String insertCompany =
+                "update insert \n" +
+                "<company id='"+ companyID +"'>\n" +
+                "<name>"+ companyName +"</name>\n" +
+                "<founding-year>"+ companyYear +"</founding-year>\n" +
+                "<country>"+ companyCountry +"</country>\n" +
+                "<networth>"+ companyNetworth +"€ million</networth>\n" +
+                "</company>\n" +
+                "preceding collection('/db/resources/')/companies/company[1]";
+        xqe.executeCommand(insertCompany);
+
+        if (gameID == null) {
+            return;
+        } else {
+            String insertGame =
+                    "update insert \n" +
+                    "<game id='"+ gameID +"' companyID='"+ companyID +"'>\n" +
+                    "<name>"+ gameName +"</name>\n" +
+                    "<developedBy>"+ companyName +"</developedBy>\n" +
+                    "<releaseYear>"+ gameReleaseYear +"</releaseYear>\n" +
+                    "</game>\n" +
+                    "preceding collection('/db/resources/')/topGames/game[1]";
+            xqe.executeCommand(insertGame);
+        }
     }
 
     public static void insertPlatform(XQConnection conn) throws XQException {
