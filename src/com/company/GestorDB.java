@@ -2,10 +2,7 @@ package com.company;
 
 import net.xqj.exist.ExistXQDataSource;
 
-import javax.xml.xquery.XQConnection;
-import javax.xml.xquery.XQDataSource;
-import javax.xml.xquery.XQException;
-import javax.xml.xquery.XQExpression;
+import javax.xml.xquery.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -52,8 +49,10 @@ public class GestorDB {
 
     }
 
-    public static void updateNetworth(XQConnection conn) throws XQException {
+    public static void updateNetworth(XQConnection conn, String id) throws XQException {
         XQExpression xqe = conn.createExpression();
+
+
 
     }
 
@@ -72,11 +71,41 @@ public class GestorDB {
 
     }
 
-    public static List<Platforms> getPlatformsByReleaseYear(XQConnection conn, String releaseYear) throws XQException {
+    public static List<Platforms> getPlatformsByReleaseYear(XQConnection conn, String year) throws XQException {
         List<Platforms> platformsList = new ArrayList<>();
         XQExpression xqe = conn.createExpression();
 
+        String id = "collection('/db/resources/')/platforms/platform[releaseYear = " + year +"]/@platformID/string()";
+        XQResultSequence idxqrs = xqe.executeQuery(id);
 
+        while (idxqrs.next()) {
+            Platforms platform = new Platforms();
+
+            platform.setId(idxqrs.getItemAsString(null));
+
+            String name = "collection('/db/resources/')/platforms/platform[@platformID = " + platform.getId() + "]/name/string()";
+            String createdBy = "collection('/db/resources/')/platforms/platform[@platformID = " + platform.getId() + "]/createdBy/string()";
+            String releaseYear = "collection('/db/resources/')/platforms/platform[@platformID = " + platform.getId() + "]/releaseYear/string()";
+
+            XQResultSequence namexqrs = xqe.executeQuery(name);
+            XQResultSequence createdByxqrs = xqe.executeQuery(createdBy);
+            XQResultSequence releaseYearxqrs = xqe.executeQuery(releaseYear);
+
+
+            while (namexqrs.next()) {
+                platform.setName(namexqrs.getItemAsString(null));
+            }
+
+            while (createdByxqrs.next()) {
+                platform.setCreatedBy(createdByxqrs.getItemAsString(null));
+            }
+
+            while (releaseYearxqrs.next()) {
+                platform.setReleaseYear(releaseYearxqrs.getItemAsString(null));
+            }
+
+            platformsList.add(platform);
+        }
         return platformsList;
     }
 

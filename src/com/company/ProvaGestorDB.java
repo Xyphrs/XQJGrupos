@@ -10,6 +10,11 @@ public class ProvaGestorDB {
         XQConnection conn = GestorDB.constructor();
         System.out.println("Connected");
 
+        System.out.println("Introduce el año de lanzamiento de una plataforma");
+        String platformYear = scanner.next();
+        System.out.println(GestorDB.getPlatformsByReleaseYear(conn, platformYear));
+
+
         GestorDB.tancarSessio(conn);
         System.out.println("\nDisconnected");
     }
