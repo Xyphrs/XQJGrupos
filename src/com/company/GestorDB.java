@@ -49,11 +49,13 @@ public class GestorDB {
 
     }
 
-    public static void updateNetworth(XQConnection conn, String id) throws XQException {
+    public static void updateNetworth(XQConnection conn, String id, String value) throws XQException {
         XQExpression xqe = conn.createExpression();
+        String networth = "update value\n" +
+                "collection('/db/resources/')/companies/company[@id = '"+ id +"']/networth\n" +
+                "with '"+ value + "€ million'";
 
-
-
+        xqe.executeCommand(networth);
     }
 
     public static void updateCountry(XQConnection conn) throws XQException {
@@ -75,7 +77,7 @@ public class GestorDB {
         List<Platforms> platformsList = new ArrayList<>();
         XQExpression xqe = conn.createExpression();
 
-        String id = "collection('/db/resources/')/platforms/platform[releaseYear = " + year +"]/@platformID/string()";
+        String id = "collection('/db/resources/')/platforms/platform[releaseYear >= " + year +"]/@platformID/string()";
         XQResultSequence idxqrs = xqe.executeQuery(id);
 
         while (idxqrs.next()) {
